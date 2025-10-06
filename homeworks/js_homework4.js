@@ -39,3 +39,5 @@ function checkProbabilityTheory(count) {
     console.log("Результат далёк от 50% — теория не подтверждается.");
   }
 }
+
+checkProbabilityTheory(100);
