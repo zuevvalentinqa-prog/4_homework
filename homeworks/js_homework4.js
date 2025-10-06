@@ -31,9 +31,9 @@ function checkProbabilityTheory(count) {
   console.log(`Чётных: ${even}`);
   console.log(`Нечётных: ${odd}`);
   console.log(`Процент чётных: ${percentEven.toFixed(2)}%`);
-  console.log(`Процент нечётнх: ${percentOdd.toFixed(2)}%`);
+  console.log(`Процент нечётных: ${percentOdd.toFixed(2)}%`);
 
-  if (Math.abs(percentEven - 50) <= 5) {
+  if (Math.abs(percentEven - 50) <= 10) {
     console.log("Результат близок к 50% — теория подтверждается.");
   } else {
     console.log("Результат далёк от 50% — теория не подтверждается.");
