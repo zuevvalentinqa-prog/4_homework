@@ -1,1 +1,1 @@
-console.log((+null == false) < 1 ** 5);
+ const percentEven = (even / count) * 100;
